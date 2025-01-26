@@ -1,0 +1,22 @@
+<Project>
+
+  <PropertyGroup>
+    <Version>1.0.0-alpha.0</Version>
+    <Product>MontrealComputerPerformanceClub.EnterprisePersistentConfiguration</Product>
+    <Authors>Simon Génier</Authors>
+    <RepositoryUrl>https://github.com/montreal-computer-performance-club/enterprise-persistent-configuration</RepositoryUrl>
+    <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+    <PackageTags>Configuration;Database</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System.Collections.Immutable" />
+  </ItemGroup>
+
+</Project>
